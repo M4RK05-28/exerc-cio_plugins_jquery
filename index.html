@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    
+    <section>
+
+        <img src="./img/moto.jpg" alt="Uma Moto Parada" id="moto">
+
+        <div class="box">
+            <div class="form-value">
+                <form action="">
+                    <h2>Formulário</h2>
+                    <div class="input-field">
+                        <ion-icon name="body-outline"></ion-icon>
+                        <input type="nome" required>
+                        <label for="">Nome Completo:</label>
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required>
+                        <label for="">Email:</label>
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="telefone" id="telefone" name="telefone" required><br>
+                        <label for="">Telefone:</label>
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="document-lock-outline"></ion-icon>
+                        <input type="cpf" id="cpf" name="cpf" required><br>
+                        <label for="">CPF:</label>
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <input type="endereço" id="endereco" name="endereco" required><br>
+                        <label for="">Endereço:</label>
+                    </div>
+                    <div class="input-field">
+                        <ion-icon name="location-outline"></ion-icon>
+                        <input type="cep" id="cep" name="cep" required><br>
+                        <label for="">Cep:</label>
+                    </div>
+                    <button>Cadastrar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
